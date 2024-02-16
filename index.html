@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Announcement</title>
+    <style>
+        /* Basic reset for margins and paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Simple styling for the body */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        /* Centering the logo and text box */
+        .container {
+            text-align: center;
+        }
+
+        /* Styling the logo */
+        .logo {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+
+        /* Styling the announcement box */
+        .announcement {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            max-width: 600px;
+            margin: auto;
+        }
+
+        /* Responsive design for smaller screens */
+        @media screen and (max-width: 600px) {
+            .announcement {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Replace 'logo.png' with your actual logo file -->
+        <img src="logo_300.gif" alt="Company Logo" class="logo">
+
+        <div class="announcement">
+            <h1>Announcement</h1>
+            <p>
+                Effective December 2023, and subsequent to receiving approval from CySEC, Prodigit Investments Ltd is now under new management and temporarily refraining from accepting new clients. We are actively engaged in the development of a new website, scheduled to launch shortly. We appreciate your patience and understanding. Thank you.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
